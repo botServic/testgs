@@ -9,7 +9,7 @@ fetch(url)
 }
 
 function addGS(){
-    var url = "https://script.google.com/macros/s/AKfycbxloPIyy6whKzduymK3OE1M4ZY76mIACSICNaiY8rhrIKDUO8_5kO2MyKQS5tLMM6A3pw/exec"
+var url = "https://script.google.com/macros/s/AKfycbxloPIyy6whKzduymK3OE1M4ZY76mIACSICNaiY8rhrIKDUO8_5kO2MyKQS5tLMM6A3pw/exec"
     
     fetch(url, {
     method: 'POST', // *GET, POST, PUT, DELETE, etc.
