@@ -22,6 +22,7 @@ var url = "https://script.google.com/macros/s/AKfycbxloPIyy6whKzduymK3OE1M4ZY76m
     redirect: 'follow', // manual, *follow, error
     body: JSON.stringify({"FullName":"Гончарук Юлия Викторовна","E-mail":"jgonchar27@gmail.com","Phone":796666666,"Answer1":"Да","Answer2":"Основной доход","Answer3":"Русский","Answer4":"Согласен","Answer5":"Да, готов, но меня это смущает, хочу больше информации","StatusReq":"Обработан"}) // body data type must match "Content-Type" header
     });
+    
     }
 document.getElementById("btn2").addEventListener("click",addGS);
 document.getElementById("btn").addEventListener("click",testGS);
